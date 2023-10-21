@@ -1828,6 +1828,8 @@ section {
   }
 }
 
+/* Custom colors */
+
 #hero {
   background-color: #0C648D;
 }
@@ -1840,3 +1842,116 @@ section {
   color: #fff;
   background: #79CED9;
 }
+
+#header.header-scrolled {
+  background: rgba(12, 100, 141, 0.9)
+}
+
+.cta {
+  background: linear-gradient(rgba(12, 100, 141, 0.9), rgba(12, 100, 141, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+}
+
+a {
+  color: #79CED9;
+}
+
+.back-to-top {
+  background: #79CED9;
+}
+
+#footer {
+  background-color: #0C648D;
+}
+
+#footer .footer-top .social-links a {
+  background-color: #79CED9;
+}
+
+#footer .footer-top .social-links a:hover {
+  background-color: #0C648D;
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  background: #79CED9;
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #0C648D;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #79CED9;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #0C648D;
+}
+
+
+
+.navbar .getstarted, .navbar .getstarted:focus {
+  border: 2px solid #79CED9;
+}
+
+.about .content .btn-learn-more {
+  color: #79CED9;
+  border: 2px solid #79CED9;
+}
+
+.about .content .btn-learn-more:hover {
+  background: #79CED9;
+}
+
+.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+  background: #79CED9;
+}
+
+.cta .cta-btn:hover {
+  background: #79CED9;
+  border: 2px solid #79CED9;
+}
+
+.section-title h2::after {
+  background: #79CED9;
+}
+
+.services .icon-box .icon i {
+  color: #79CED9;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #79CED9;
+}
+
+.services .icon-box h4 a:hover {
+  color: #0C648D;
+}
+
+/* Chat-bot css */
+
+#chat2 .form-control {
+  border-color: transparent;
+  }
+  
+  #chat2 .form-control:focus {
+  border-color: transparent;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+
+  .chat-btn {
+    background: #0C648D;
+    border: 1px, solid, #0C648D;
+  }
+
+  .text-color {
+    background: #79CED9;
+    
+  }
